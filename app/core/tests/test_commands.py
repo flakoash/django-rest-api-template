@@ -24,7 +24,7 @@ class CommandTests(SimpleTestCase):
 
     @patch('time.sleep')
     def test_wait_for_db_delay(self, patched_sleep, patched_check):
-        """test waiting for DB if database is not ready yet. 
+        """test waiting for DB if database is not ready yet.
         note: order of pathced args is important!"""
 
         # pass the results we want to get in consecutive calls

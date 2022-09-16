@@ -1,7 +1,5 @@
-"""
-simple Django command to handle wait for DB 
-to be available in the cluster.
-"""
+"""simple Django command to handle wait for DB
+to be available in the cluster."""
 import time
 
 from django.core.management.base import BaseCommand
